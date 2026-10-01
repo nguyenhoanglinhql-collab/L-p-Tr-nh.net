@@ -1,0 +1,16 @@
+D:\visual studio\phần3\bin\Release\net10.0-windows\phần3.exe
+D:\visual studio\phần3\bin\Release\net10.0-windows\phần3.deps.json
+D:\visual studio\phần3\bin\Release\net10.0-windows\phần3.runtimeconfig.json
+D:\visual studio\phần3\bin\Release\net10.0-windows\phần3.dll
+D:\visual studio\phần3\bin\Release\net10.0-windows\phần3.pdb
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.Form1.resources
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.csproj.GenerateResource.cache
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.AssemblyInfoInputs.cache
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.AssemblyInfo.cs
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.csproj.CoreCompileInputs.cache
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.dll
+D:\visual studio\phần3\obj\Release\net10.0-windows\refint\phần3.dll
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.pdb
+D:\visual studio\phần3\obj\Release\net10.0-windows\phần3.genruntimeconfig.cache
+D:\visual studio\phần3\obj\Release\net10.0-windows\ref\phần3.dll
