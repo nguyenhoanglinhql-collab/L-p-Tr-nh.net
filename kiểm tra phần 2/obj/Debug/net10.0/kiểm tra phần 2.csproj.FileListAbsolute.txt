@@ -1,0 +1,14 @@
+D:\visual studio\kiểm tra phần 2\bin\Debug\net10.0\kiểm tra phần 2.exe
+D:\visual studio\kiểm tra phần 2\bin\Debug\net10.0\kiểm tra phần 2.deps.json
+D:\visual studio\kiểm tra phần 2\bin\Debug\net10.0\kiểm tra phần 2.runtimeconfig.json
+D:\visual studio\kiểm tra phần 2\bin\Debug\net10.0\kiểm tra phần 2.dll
+D:\visual studio\kiểm tra phần 2\bin\Debug\net10.0\kiểm tra phần 2.pdb
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\kiểm tra phần 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\kiểm tra phần 2.AssemblyInfoInputs.cache
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\kiểm tra phần 2.AssemblyInfo.cs
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\kiểm tra phần 2.csproj.CoreCompileInputs.cache
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\kiểm tra phần 2.dll
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\refint\kiểm tra phần 2.dll
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\kiểm tra phần 2.pdb
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\kiểm tra phần 2.genruntimeconfig.cache
+D:\visual studio\kiểm tra phần 2\obj\Debug\net10.0\ref\kiểm tra phần 2.dll
