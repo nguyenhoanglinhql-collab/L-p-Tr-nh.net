@@ -1,1 +1,85 @@
 
+Câu 1: Phân biệt Value Types và Reference Types trong C#
+
+Value Types (kiểu giá trị) lưu trực tiếp giá trị của biến. Với biến cục bộ, dữ liệu thường được lưu trên Stack. Khi gán một biến Value Type cho biến khác thì giá trị được sao chép độc lập.
+
+Ví dụ: int, float, double, bool, struct.
+
+Reference Types (kiểu tham chiếu) lưu một tham chiếu đến đối tượng được cấp phát trên Heap. Khi gán một biến Reference Type cho biến khác thì hai biến có thể cùng tham chiếu đến một đối tượng.
+
+Ví dụ: class, object, array, string.
+
+Tóm lại: Value Type chứa giá trị, còn Reference Type chứa tham chiếu đến đối tượng.
+
+Câu 2: init khác gì so với set thông thường?
+
+set cho phép thay đổi giá trị của thuộc tính bất cứ lúc nào sau khi đối tượng được tạo.
+
+Trong khi đó, init chỉ cho phép gán giá trị trong quá trình khởi tạo đối tượng. Sau khi khởi tạo xong, thuộc tính không thể thay đổi.
+
+Ví dụ:
+
+class Student
+{
+    public string Name { get; init; }
+}
+
+Sau khi tạo:
+
+Student s = new Student { Name = "Toan" };
+
+thì không thể tiếp tục thay đổi s.Name.
+
+Ứng dụng thực tế: init phù hợp với các thông tin cần thiết lập một lần như mã sinh viên, mã đơn hàng hoặc các thông tin cấu hình, giúp hạn chế việc thay đổi dữ liệu ngoài ý muốn.
+
+Câu 3: Phân biệt virtual và override
+
+virtual được khai báo trong lớp cha, cho phép phương thức đó được lớp con ghi đè.
+
+override được khai báo trong lớp con, dùng để ghi đè và thay đổi cách thực hiện phương thức virtual của lớp cha.
+
+Ví dụ:
+
+class Animal
+{
+    public virtual void Sound()
+    {
+        Console.WriteLine("Âm thanh");
+    }
+}
+
+class Dog : Animal
+{
+    public override void Sound()
+    {
+        Console.WriteLine("Gâu gâu");
+    }
+}
+
+Khi gọi phương thức thông qua đối tượng Dog, phiên bản Sound() của Dog sẽ được thực hiện.
+
+Tóm lại: virtual là cho phép ghi đè, còn override là thực hiện ghi đè. Đây là cơ chế quan trọng để triển khai tính đa hình (Polymorphism) trong C#.
+
+Câu 4: Tại sao thành phần static không thể truy xuất thông qua Object Instance?
+
+Thành phần được khai báo static thuộc về Class, không thuộc về từng Object Instance.
+
+Vì vậy, không cần tạo đối tượng bằng new để sử dụng thành phần static. Ta truy cập trực tiếp thông qua tên lớp.
+
+Ví dụ:
+
+class Student
+{
+    public static int Count = 0;
+}
+
+Truy cập:
+
+Student.Count;
+
+Thay vì:
+
+Student s = new Student();
+s.Count;
+
+Lý do: thành phần static chỉ có một bản dùng chung cho toàn bộ Class, trong khi thành phần thông thường có thể có dữ liệu riêng cho từng Object.
